@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813BF0962A2898B9009993ED /* Life_DashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0952A2898B9009993ED /* Life_DashboardApp.swift */; };
+		813BF0982A2898B9009993ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0972A2898B9009993ED /* ContentView.swift */; };
+		813BF09A2A2898BB009993ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813BF0992A2898BB009993ED /* Assets.xcassets */; };
+		813BF09D2A2898BB009993ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813BF09C2A2898BB009993ED /* Preview Assets.xcassets */; };
+		813BF0A72A2898BB009993ED /* Life_DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0A62A2898BB009993ED /* Life_DashboardTests.swift */; };
+		813BF0B12A2898BB009993ED /* Life_DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0B02A2898BB009993ED /* Life_DashboardUITests.swift */; };
+		813BF0B32A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0B22A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813BF0A32A2898BB009993ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813BF08A2A2898B9009993ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813BF0912A2898B9009993ED;
+			remoteInfo = "Life Dashboard";
+		};
+		813BF0AD2A2898BB009993ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813BF08A2A2898B9009993ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813BF0912A2898B9009993ED;
+			remoteInfo = "Life Dashboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		813BF0922A2898B9009993ED /* Life Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813BF0952A2898B9009993ED /* Life_DashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_DashboardApp.swift; sourceTree = "<group>"; };
+		813BF0972A2898B9009993ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		813BF0992A2898BB009993ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		813BF09C2A2898BB009993ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		813BF0A22A2898BB009993ED /* Life DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life DashboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813BF0A62A2898BB009993ED /* Life_DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_DashboardTests.swift; sourceTree = "<group>"; };
+		813BF0AC2A2898BB009993ED /* Life DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life DashboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813BF0B02A2898BB009993ED /* Life_DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_DashboardUITests.swift; sourceTree = "<group>"; };
+		813BF0B22A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_DashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		813BF08F2A2898B9009993ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BF09F2A2898BB009993ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BF0A92A2898BB009993ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813BF0892A2898B9009993ED = {
+			isa = PBXGroup;
+			children = (
+				813BF0942A2898B9009993ED /* Life Dashboard */,
+				813BF0A52A2898BB009993ED /* Life DashboardTests */,
+				813BF0AF2A2898BB009993ED /* Life DashboardUITests */,
+				813BF0932A2898B9009993ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		813BF0932A2898B9009993ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				813BF0922A2898B9009993ED /* Life Dashboard.app */,
+				813BF0A22A2898BB009993ED /* Life DashboardTests.xctest */,
+				813BF0AC2A2898BB009993ED /* Life DashboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		813BF0942A2898B9009993ED /* Life Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				813BF0952A2898B9009993ED /* Life_DashboardApp.swift */,
+				813BF0972A2898B9009993ED /* ContentView.swift */,
+				813BF0992A2898BB009993ED /* Assets.xcassets */,
+				813BF09B2A2898BB009993ED /* Preview Content */,
+			);
+			path = "Life Dashboard";
+			sourceTree = "<group>";
+		};
+		813BF09B2A2898BB009993ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				813BF09C2A2898BB009993ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		813BF0A52A2898BB009993ED /* Life DashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				813BF0A62A2898BB009993ED /* Life_DashboardTests.swift */,
+			);
+			path = "Life DashboardTests";
+			sourceTree = "<group>";
+		};
+		813BF0AF2A2898BB009993ED /* Life DashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				813BF0B02A2898BB009993ED /* Life_DashboardUITests.swift */,
+				813BF0B22A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift */,
+			);
+			path = "Life DashboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		813BF0912A2898B9009993ED /* Life Dashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813BF0B62A2898BB009993ED /* Build configuration list for PBXNativeTarget "Life Dashboard" */;
+			buildPhases = (
+				813BF08E2A2898B9009993ED /* Sources */,
+				813BF08F2A2898B9009993ED /* Frameworks */,
+				813BF0902A2898B9009993ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life Dashboard";
+			productName = "Life Dashboard";
+			productReference = 813BF0922A2898B9009993ED /* Life Dashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813BF0A12A2898BB009993ED /* Life DashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813BF0B92A2898BB009993ED /* Build configuration list for PBXNativeTarget "Life DashboardTests" */;
+			buildPhases = (
+				813BF09E2A2898BB009993ED /* Sources */,
+				813BF09F2A2898BB009993ED /* Frameworks */,
+				813BF0A02A2898BB009993ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813BF0A42A2898BB009993ED /* PBXTargetDependency */,
+			);
+			name = "Life DashboardTests";
+			productName = "Life DashboardTests";
+			productReference = 813BF0A22A2898BB009993ED /* Life DashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		813BF0AB2A2898BB009993ED /* Life DashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813BF0BC2A2898BB009993ED /* Build configuration list for PBXNativeTarget "Life DashboardUITests" */;
+			buildPhases = (
+				813BF0A82A2898BB009993ED /* Sources */,
+				813BF0A92A2898BB009993ED /* Frameworks */,
+				813BF0AA2A2898BB009993ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813BF0AE2A2898BB009993ED /* PBXTargetDependency */,
+			);
+			name = "Life DashboardUITests";
+			productName = "Life DashboardUITests";
+			productReference = 813BF0AC2A2898BB009993ED /* Life DashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		813BF08A2A2898B9009993ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					813BF0912A2898B9009993ED = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					813BF0A12A2898BB009993ED = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 813BF0912A2898B9009993ED;
+					};
+					813BF0AB2A2898BB009993ED = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 813BF0912A2898B9009993ED;
+					};
+				};
+			};
+			buildConfigurationList = 813BF08D2A2898B9009993ED /* Build configuration list for PBXProject "Life Dashboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 813BF0892A2898B9009993ED;
+			productRefGroup = 813BF0932A2898B9009993ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				813BF0912A2898B9009993ED /* Life Dashboard */,
+				813BF0A12A2898BB009993ED /* Life DashboardTests */,
+				813BF0AB2A2898BB009993ED /* Life DashboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		813BF0902A2898B9009993ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BF09D2A2898BB009993ED /* Preview Assets.xcassets in Resources */,
+				813BF09A2A2898BB009993ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BF0A02A2898BB009993ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BF0AA2A2898BB009993ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		813BF08E2A2898B9009993ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BF0982A2898B9009993ED /* ContentView.swift in Sources */,
+				813BF0962A2898B9009993ED /* Life_DashboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BF09E2A2898BB009993ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BF0A72A2898BB009993ED /* Life_DashboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BF0A82A2898BB009993ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BF0B12A2898BB009993ED /* Life_DashboardUITests.swift in Sources */,
+				813BF0B32A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813BF0A42A2898BB009993ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813BF0912A2898B9009993ED /* Life Dashboard */;
+			targetProxy = 813BF0A32A2898BB009993ED /* PBXContainerItemProxy */;
+		};
+		813BF0AE2A2898BB009993ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813BF0912A2898B9009993ED /* Life Dashboard */;
+			targetProxy = 813BF0AD2A2898BB009993ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		813BF0B42A2898BB009993ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		813BF0B52A2898BB009993ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		813BF0B72A2898BB009993ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Life Dashboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Dashboard.Life-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		813BF0B82A2898BB009993ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Life Dashboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Dashboard.Life-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		813BF0BA2A2898BB009993ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Dashboard.Life-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Dashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Life Dashboard";
+			};
+			name = Debug;
+		};
+		813BF0BB2A2898BB009993ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Dashboard.Life-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Dashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Life Dashboard";
+			};
+			name = Release;
+		};
+		813BF0BD2A2898BB009993ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Dashboard.Life-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Life Dashboard";
+			};
+			name = Debug;
+		};
+		813BF0BE2A2898BB009993ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Dashboard.Life-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Life Dashboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		813BF08D2A2898B9009993ED /* Build configuration list for PBXProject "Life Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BF0B42A2898BB009993ED /* Debug */,
+				813BF0B52A2898BB009993ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813BF0B62A2898BB009993ED /* Build configuration list for PBXNativeTarget "Life Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BF0B72A2898BB009993ED /* Debug */,
+				813BF0B82A2898BB009993ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813BF0B92A2898BB009993ED /* Build configuration list for PBXNativeTarget "Life DashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BF0BA2A2898BB009993ED /* Debug */,
+				813BF0BB2A2898BB009993ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813BF0BC2A2898BB009993ED /* Build configuration list for PBXNativeTarget "Life DashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BF0BD2A2898BB009993ED /* Debug */,
+				813BF0BE2A2898BB009993ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 813BF08A2A2898B9009993ED /* Project object */;
+}

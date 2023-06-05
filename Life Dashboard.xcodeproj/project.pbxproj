@@ -14,6 +14,8 @@
 		813BF0A72A2898BB009993ED /* Life_DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0A62A2898BB009993ED /* Life_DashboardTests.swift */; };
 		813BF0B12A2898BB009993ED /* Life_DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0B02A2898BB009993ED /* Life_DashboardUITests.swift */; };
 		813BF0B32A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0B22A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift */; };
+		813BF0C22A29B77C009993ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0C12A29B77C009993ED /* AppDelegate.swift */; };
+		813BF0C42A29EC35009993ED /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BF0C32A29EC35009993ED /* HealthKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		813BF0AC2A2898BB009993ED /* Life DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life DashboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813BF0B02A2898BB009993ED /* Life_DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_DashboardUITests.swift; sourceTree = "<group>"; };
 		813BF0B22A2898BB009993ED /* Life_DashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_DashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		813BF0BF2A2899E9009993ED /* Life Dashboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Life Dashboard.entitlements"; sourceTree = "<group>"; };
+		813BF0C02A29AD9C009993ED /* Life-Dashboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Life-Dashboard-Info.plist"; sourceTree = SOURCE_ROOT; };
+		813BF0C12A29B77C009993ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		813BF0C32A29EC35009993ED /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,12 @@
 		813BF0942A2898B9009993ED /* Life Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				813BF0C02A29AD9C009993ED /* Life-Dashboard-Info.plist */,
+				813BF0BF2A2899E9009993ED /* Life Dashboard.entitlements */,
 				813BF0952A2898B9009993ED /* Life_DashboardApp.swift */,
 				813BF0972A2898B9009993ED /* ContentView.swift */,
+				813BF0C12A29B77C009993ED /* AppDelegate.swift */,
+				813BF0C32A29EC35009993ED /* HealthKitManager.swift */,
 				813BF0992A2898BB009993ED /* Assets.xcassets */,
 				813BF09B2A2898BB009993ED /* Preview Content */,
 			);
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813BF0C22A29B77C009993ED /* AppDelegate.swift in Sources */,
 				813BF0982A2898B9009993ED /* ContentView.swift in Sources */,
+				813BF0C42A29EC35009993ED /* HealthKitManager.swift in Sources */,
 				813BF0962A2898B9009993ED /* Life_DashboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,11 +426,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Life Dashboard/Life Dashboard.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Life Dashboard/Preview Content\"";
+				DEVELOPMENT_TEAM = W6N87HDAHW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life-Dashboard-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Our app needs to read your health data to provide you with insights about your health and fitness trends. Your data is always kept secure and private.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Our app needs to write health data to track your workouts and give you a complete picture of your health journey.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,11 +459,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Life Dashboard/Life Dashboard.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Life Dashboard/Preview Content\"";
+				DEVELOPMENT_TEAM = W6N87HDAHW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life-Dashboard-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Our app needs to read your health data to provide you with insights about your health and fitness trends. Your data is always kept secure and private.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Our app needs to write health data to track your workouts and give you a complete picture of your health journey.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,11 +1,5 @@
-//
-//  ContentView.swift
-//  Life Dashboard
-//
-//  Created by Farhaan Nishtar on 6/1/23.
-//
-
 import SwiftUI
+import HealthKit
 
 struct ContentView: View {
     var body: some View {
@@ -16,6 +10,12 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            HealthKitManager.shared.requestHealthKitAuthorization()
+            HealthKitManager.shared.fetchLatestHealthData { success in
+                print("Fetched health data with success: \(success)")
+            }
+        }
     }
 }
 

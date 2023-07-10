@@ -17,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         scheduleAppRefresh()
     }
 
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        print("App will enter foreground")
+    }
+    
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        print("App did become active")
+        HealthKitManager.shared.fetchLatestHealthData { success in
+            print("Fetched health data with success: \(success)")
+        }
+    }
+    
     func scheduleAppRefresh() {
         let request = BGAppRefreshTaskRequest(identifier: "Life-Dashboard.Life-Dashboard.fetchHealthData")
         request.earliestBeginDate = nil // Eligible to run immediately
